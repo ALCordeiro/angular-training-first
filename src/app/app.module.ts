@@ -11,6 +11,7 @@ import { AttributeDirectiveComponent } from './attribute-directive/attribute-dir
 import { HighlightDirective } from './highlight.directive';
 import { DirectivesExamplesComponent } from './directives-examples/directives-examples.component';
 import { HighlightAdvancedDirective } from './highlight-advanced.directive';
+import { NgElseDirective } from './ng-else.directive';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HighlightAdvancedDirective } from './highlight-advanced.directive';
     AttributeDirectiveComponent,
     HighlightDirective,
     DirectivesExamplesComponent,
-    HighlightAdvancedDirective
+    HighlightAdvancedDirective,
+    NgElseDirective
   ],
   imports: [
     BrowserModule,

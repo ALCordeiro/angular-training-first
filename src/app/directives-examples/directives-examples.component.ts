@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./directives-examples.component.scss']
 })
 export class DirectivesExamplesComponent implements OnInit {
+  condition: boolean = true;
 
   constructor() { }
 

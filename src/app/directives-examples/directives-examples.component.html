@@ -1,3 +1,13 @@
+<h3>Attribute Directive</h3>
 <p appHighlight>directives-examples works!</p>
 
 <p [appHighlightAdvanced]="'aqua'">Test</p>
+
+<h3>Structural Directive</h3>
+<p *ngElse="condition" class="unless a">
+    (A) This paragraph is displayed because the condition is false. My condition value: {{condition}}
+</p>
+
+<p *ngElse="!condition" class="unless b">
+    (B) This paragraph is displayed because the condition is true. My condition value: {{condition}}
+</p>

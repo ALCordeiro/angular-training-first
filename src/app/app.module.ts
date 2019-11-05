@@ -7,6 +7,10 @@ import { ComponentStylesComponent } from './component-styles/component-styles.co
 import { ComponentStylesEncapsulationComponent } from './component-styles-encapsulation/component-styles-encapsulation.component';
 import { DynamicComponentsComponent } from './dynamic-components/dynamic-components.component';
 import { HelloComponent } from './dynamic-components/hello.component';
+import { AttributeDirectiveComponent } from './attribute-directive/attribute-directive.component';
+import { HighlightDirective } from './highlight.directive';
+import { DirectivesExamplesComponent } from './directives-examples/directives-examples.component';
+import { HighlightAdvancedDirective } from './highlight-advanced.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { HelloComponent } from './dynamic-components/hello.component';
     ComponentStylesComponent,
     ComponentStylesEncapsulationComponent,
     DynamicComponentsComponent,
-    HelloComponent
+    HelloComponent,
+    AttributeDirectiveComponent,
+    HighlightDirective,
+    DirectivesExamplesComponent,
+    HighlightAdvancedDirective
   ],
   imports: [
     BrowserModule,

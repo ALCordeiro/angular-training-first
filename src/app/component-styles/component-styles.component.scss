@@ -1,0 +1,12 @@
+
+@import './variables/variables.scss'; 
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+}

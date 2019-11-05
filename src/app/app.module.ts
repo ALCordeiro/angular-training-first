@@ -12,6 +12,8 @@ import { HighlightDirective } from './highlight.directive';
 import { DirectivesExamplesComponent } from './directives-examples/directives-examples.component';
 import { HighlightAdvancedDirective } from './highlight-advanced.directive';
 import { NgElseDirective } from './ng-else.directive';
+import { ReverseStrPipe } from './reverse-str.pipe';
+import { PipesExampleComponent } from './pipes-example/pipes-example.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { NgElseDirective } from './ng-else.directive';
     HighlightDirective,
     DirectivesExamplesComponent,
     HighlightAdvancedDirective,
-    NgElseDirective
+    NgElseDirective,
+    ReverseStrPipe,
+    PipesExampleComponent
   ],
   imports: [
     BrowserModule,
